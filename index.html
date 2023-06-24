@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>portal</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <h2 class="navbar-logo"><a href="#">jobact</a></h2>
+      <div class="navebar-menu">
+        <a href="#job">job</a>
+        <a href="#companies"> companies</a>
+        <a href="#"> sign in</a>
+      </div>
+      <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <h1 class="header-title">
+        FIND<br /><span>YOURSELF IN BEST</span><br />PLACE
+      </h1>
+    </header>
+
+    <!-- search -->
+    <div class="search-wrapper">
+      <div class="search-box">
+        <div class="search-card">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Job Title or Keywords"
+          />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </div>
+    <!-- filter box -->
+    <div class="filter-box">
+      <div class="filter-dropdown">
+        <select class="filter-select" name="job-level" id=" job-level">
+          <option value="">JOB LEVEL</option>
+          <option value="">ENTRY</option>
+          <option value="">MID-SENIOR</option>
+          <option value="">DIRCTOR</option>
+          <option value="">SELECTOR</option>
+          <option value="">ADMIN</option>
+        </select>
+        <select class="filter-select" name="job-funtion" id="job-funtion">
+          <option value="">JOB FUNTION</option>
+          <option value="">IT</option>
+          <option value="">COMPUTER SCIENCE</option>
+          <option value="">MANAGMENT</option>
+          <option value="">EDUCATION</option>
+          <option value="">SELECTOR</option>
+        </select>
+        <select class="filter-select" name="employment" id="employment">
+          <option value="">EMPLOYEE TYPE</option>
+          <option value="">INTERNSHIP</option>
+          <option value="">PART TIME</option>
+          <option value="">FULL TIME</option>
+          <option value="">JOB</option>
+        </select>
+        <select class="filter-select" name="location" id="location">
+          <option value="">LOCATION</option>
+          <option value="">REMOTE</option>
+          <option value="">US</option>
+          <option value="">UK</option>
+        </select>
+        <select class="filter-select" name="education" id="education">
+          <option value="">school</option>
+          <option value="">inter</option>
+          <option value="">bachulor</option>
+          <option value="">master</option>
+        </select>
+      </div>
+      <div class="filter-chosen">
+        <div class="chosen-card">Remot<i class="fas fa-times-circle"></i></div>
+        <div class="chosen-card">
+          Full time<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Financial tech<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Entry level<i class="fas fa-times-circle"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- job listening -->
+
+    <section class="job-list" id="jobs">
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="image/microsoft.png" alt="" />
+          <div class="job-detail">
+            <h4>Microsoft</h4>
+            <h3>Mechanical Engineer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-lebel">
+          <a class="label-a" href="#">HTML</a>
+          <a class="label-b" href="#">CSS</a>
+          <a class="label-c" href="#">JavaScript</a>
+        </div>
+        <div class="job-posted">Posted 2 min ago</div>
+      </div>
+
+      <!-- 2nd sec -->
+
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="image/tiktok.png" alt="" />
+          <div class="job-detail">
+            <h4>Tiktok</h4>
+            <h3>Social Intraction</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-lebel">
+          <a class="label-a" href="#">HTML</a>
+          <a class="label-b" href="#">CSS</a>
+          <a class="label-c" href="#">JavaScript</a>
+        </div>
+        <div class="job-posted">Posted 2 min ago</div>
+      </div>
+      <!-- 3rd sec  -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="image/amazon.png" alt="" />
+          <div class="job-detail">
+            <h4>Amazon</h4>
+            <h3>Deverlper</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-lebel">
+          <a class="label-a" href="#">HTML</a>
+          <a class="label-b" href="#">CSS</a>
+          <a class="label-c" href="#">JavaScript</a>
+        </div>
+        <div class="job-posted">Posted 2 min ago</div>
+      </div>
+      <!-- 4th sec  -->
+      <div class="job-card">
+        <div class="job-name">
+          <img class="job-profile" src="image/youtube.jpeg" alt="" />
+          <div class="job-detail">
+            <h4>YouTube</h4>
+            <h3>Mechanical Engineer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="job-lebel">
+          <a class="label-a" href="#">HTML</a>
+          <a class="label-b" href="#">CSS</a>
+          <a class="label-c" href="#">JavaScript</a>
+        </div>
+        <div class="job-posted">Posted 2 min ago</div>
+      </div>
+
+      <button class="job-more">More job list</button>
+    </section>
+
+    <!-- join  -->
+
+    <section class="join">
+      <div class="join-detail">
+        <h1 c class="section-title">LTES START NEW JOB WITH US</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <button class="join-button">Join now</button>
+    </section>
+
+    <!-- feature company  -->
+
+    <section class="feature" id="companies">
+      <h1 class="section-title">Feature Companies</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+        dignissimos ma aliquam.
+      </p>
+      <div class="feature-wrapper">
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+        <div class="feature-card">
+          <img class="feature-image" src="image/job.jpg" alt="" />
+          <p>ebay</p>
+          <button class="feature-button">View 2 jobs</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer-wrapper">
+        <h3>JOBACT</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur t unde.</p>
+
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-wrapper">
+        <h4>Explore</h4>
+        <a href="#">Top Companies</a>
+        <a href="#">Term of Servise</a>
+        <a href="#">Podcast</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer-wrapper">
+        <h4>About</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Get inspired</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-wrapper">
+        <h4>Support</h4>
+        <a href="#">Customer Service</a>
+        <a href="#">Trust & Safety</a>
+        <a href="#">Partnership</a>
+      </div>
+      <div class="footer-wrapper">
+        <h4>Community</h4>
+        <a href="#">Community</a>
+        <a href="#">Invite a Friend</a>
+        <a href="#">Event</a>
+      </div>
+    </footer>
+  </body>
+</html>
